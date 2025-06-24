@@ -83,7 +83,5 @@ export const AboutSection= () => {
                 </div>
             </div>
         </section>
-
-        //1:31:21
     )
 }
