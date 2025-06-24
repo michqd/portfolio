@@ -3,27 +3,27 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "website",
-        description: "bio",
-        image: "/projects/project.jpeg",
-        tags: ["React", "tailwindcss", "Javascript"],
-        githubUrl: "https://github.com/michqd",
+        title: "AiTmed",
+        description: "Designed and developed a user-friendly website that connects patients and users to accessible telehealth services.",
+        image: "/projects/aitmed.png",
+        tags: ["HTML", "CSS", "Javascript", "Figma"],
+        githubUrl: "https://www.aitmed.com/",
     },
     {
         id: 2,
-        title: "website 2",
-        description: "bio 2",
-        image: "/projects/project.jpeg",
-        tags: ["React", "tailwindcss", "Javascript"],
-        githubUrl: "https://www.urgentcareac.com/",
+        title: "BudgetBuddy",
+        description: "BudgetBuddy is a smart finance app that uses AI to track expenses, auto-categorize spending, and deliver personalized budgeting insights.",
+        image: "/projects/budgetbuddy.png",
+        tags: ["React", "Tailwindcss", "Vite", "Python", "Javascript", "Figma"],
+        githubUrl: "https://github.com/CS4800Group/CS4800-project-personal-finance-tracker",
     },
     {
         id: 3,
-        title: "website 3",
-        description: "bio 3 hello bye this is a testing so i can test the padding of the tpage blah blah blah ",
-        image: "/projects/project.jpeg",
-        tags: ["React", "tailwindcss", "Javascript"],
-        githubUrl: "https://github.com/michqd",
+        title: "A&C Urgent Care",
+        description: "Designed and developed a responsive, user-friendly website for A&C Urgent Care to streamline access to services, appointments, and clinic information.",
+        image: "/projects/urgentcareac.png",
+        tags: ["HTML", "CSS", "Javascript", "Figma"],
+        githubUrl: "https://www.urgentcareac.com/",
     },
 ]
 
@@ -35,7 +35,7 @@ export const ProjectsSection = () => {
                     Featured <span className="text-primary"> Projects</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects ...
+                    Here are some of my recent projects. Explore more of my projects on my Github.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -71,7 +71,7 @@ export const ProjectsSection = () => {
                 </div>
                 <div className="text-center mt-12 ">
                     <a className="cosmic-button w-fit flex item-center mx-auto gap-2" target="_blank" href="https://github.com/michqd">
-                        Check My Github <ArrowRight size={16}/>
+                        Explore My Github <ArrowRight size={16}/>
                     </a>
                 </div>
             </div>
