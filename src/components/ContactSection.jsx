@@ -92,7 +92,7 @@ export const ContactSection = () => {
                     <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
                         <h4 className="text-xl font-semibold mb-6">DO NOT SEND MESSAGE USING FORM </h4>
-                        <h5 className="text-l font-semibold mb-6 text-primary">I did pay for the use of the forms. Please contact through email.</h5>
+                        <h5 className="text-l font-semibold mb-6 text-primary">I did not pay for SMTP server or a third-party email service. Please contact through email.</h5>
 
                         <form className="space-y-6" onSubmit={handleSubmit}>
                             <div>
